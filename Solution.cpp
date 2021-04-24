@@ -1,16 +1,14 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
-/**
- * Please copy a file content to run using launch.json
- */
-
-class Solution {
+class Solution{
 public:
+    void print() {
+        cout<<"Hello World!";
+    }
 };
-
 int main() {
-    Solution s;
+    Solution sol;
+    sol.print();
     return 0;
 }
