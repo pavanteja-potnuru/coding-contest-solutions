@@ -8,3 +8,9 @@
     - Permutation Coefficient(npr): npr(n+1, r) = npr(n, r) + k*npr(n, r-1);
 # 
 BitMasking
+
+# C++ STL
+```
+// a and b should be sorted sequence
+includes(a.begin(), a.end(), b.begin(), b.end());
+```
